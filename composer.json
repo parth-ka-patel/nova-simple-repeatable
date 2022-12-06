@@ -14,7 +14,7 @@
   "require": {
     "php": ">=7.3",
     "laravel/nova": "^4.0",
-    "outl1ne/nova-translations-loader": "^5.0"
+    "outl1ne/nova-translations-loader": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -32,6 +32,10 @@
     {
       "type": "composer",
       "url": "https://nova.laravel.com"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/parth-ka-patel/nova-translations-loader"
     },
     {
       "type": "vcs",
